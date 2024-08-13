@@ -3,6 +3,7 @@
 
 Our codebase is organized as follows:
 - All Jupyter notebooks besides full_pipeline.ipynb are in the directory notebooks and are used for training, data creation, fine-tuning, or any otherwise adjacent work to the creation of the end-to-end pipeline to go from a JPEG or image file through to full text expansion. The full pipeline itself is capatured by the notebook full_pipline.ipynb.
+- Our project pipeline was built to run through Google Colab 
 
 Here is a description of this repository and its contents:
 
@@ -14,12 +15,15 @@ Here is a description of this repository and its contents:
     - `adam_writing.jpeg`
     - `tarun_writing.jpeg`
   
-  - **IAM/**  
-    Directory containing IAM handwriting dataset files.
-    - **image/**
-      - `gpt2.dict.txt`
-      - `gt_test.txt`
-  
+  - **data/**  
+    Directory containing IAM handwriting dataset and synthetic expanded data files.
+    - **IAM/**
+      - **image/**
+        - `gpt2.dict.txt`
+        - `gt_test.txt`
+    - **synthetic/**
+        - `df_combined_expansions.csv`
+
   - **output/**  
     Directory for storing generated text outputs.
     - `expansion_text.md` - Markdown output file with the final expanded text.

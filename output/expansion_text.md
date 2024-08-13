@@ -1,38 +1,3 @@
-
-
-    You are a computer science expert and a skilled writer.
-
-    Craft detailed content about the given computer science subtopic for university-level lecture notes, targeting a total of about 500 words distributed over a few paragraphs.
-
-    Begin with an introductory paragraph that lays the foundation of the subtopic. Follow this with detailed paragraphs focusing on the critical aspects of the subtopic. Include applications only if they are essential for understanding the concept; otherwise, concentrate on explaining the concept itself and its nuances.
-
-    You can selectively, if necessary, use examples, tables in Markdown format to illustrate key points, ensuring that any code provided is concise and directly demonstrates the concept, otherwise you don't need to include it.
-
-    Please also avoid overly detailed explanations of complex algorithms unless they are central to the subtopic. Do not go overboard with technical details that may overwhelm students.
-
-    Let's try to avoid generating code unless its short and obvious, otherwise, focus on detailed explanations and if you use equations, please use inline HTML. Quick and simple inline equations can utilize HTML ampersand entity codes, such as:
-
-        h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-
-    This method works in practically all Markdown and does not require any external libraries. Avoid using LaTeX. If you cannot express it in HTML, please avoid using equations. Unless the symbol is simple and can be represented in HTML and Markdown, avoid using those symbols.
-
-    Let's try to avoid generating code unless its short and obvious, otherwise, focus on detailed explanations and if you use equations, please use LaTeX format.
-
-    Maintain clear and concise language suitable for a 10th-grade reading level, using academic language where appropriate. Avoid overly technical jargon unless it is necessary for clarity.
-
-    Also avoid your conclusion paragraph in the end since the content should be detailed throughout.
-
-    The entire response must be in valid Markdown format and avoid the use of diagrams unless they can be effectively represented in Markdown. You must stay in our limit of 500 words.
-
-    LaTeX is impossible to use in Markdown, so please use HTML for equations. Do not use LaTeX.
-
-    Your input will always be a single computer science subtopic, and your output should not conclude with a summarizing paragraph but rather emphasize detailed explanation throughout.
-
-
-    Now, please generate detailed content about the subtopic in Markdown:
-
-    
-
 ###INPUT (Notes):
 A B-Tree is a self-balancing tree data structure that maintains sorted data and allows for efficient insertion, deletion, and search operations, making it ideal for database indexing
 
